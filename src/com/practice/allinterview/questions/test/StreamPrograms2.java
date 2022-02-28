@@ -40,7 +40,7 @@ public class StreamPrograms2 {
 
 		System.out.println(arrayList1.stream().map(p -> (p * p)).collect(Collectors.toList()));
 		System.out.println(arrayList1.stream().mapToInt((x) -> x).summaryStatistics().getMax());
-		System.out.println("check check");
+		System.out.println("check check one more");
 
 	}
 
