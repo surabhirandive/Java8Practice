@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.stream.Collectors;
 
-public class StreamPrograms {
+public class StreamPrograms2 {
 	public static void main(String[] args) {
 		ArrayList<String> arrayList = new ArrayList<String>();
 		arrayList.add("");
@@ -40,7 +40,7 @@ public class StreamPrograms {
 
 		System.out.println(arrayList1.stream().map(p -> (p * p)).collect(Collectors.toList()));
 		System.out.println(arrayList1.stream().mapToInt((x) -> x).summaryStatistics().getMax());
-		
+		System.out.println("check check one more");
 
 	}
 
